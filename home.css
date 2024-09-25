@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #535724;
+}
+body
+{
+    display: block;
+}
+/* CSS for header */
+header 
+{
+    background-color: #ADB272;
+    border-bottom: 0.5px solid #787c49;
+    width: 100%;
+    height: 100px;
+    padding: 0 30px;
+    /* //position: fixed;
+    //z-index: 1; */
+}
+@keyframes scroll 
+{
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.scrolling-text 
+{
+    overflow: hidden;
+    white-space: nowrap;
+    height: 30px;
+}
+
+.scrolling-text p {
+    display: inline-block;
+    animation: scroll 20s linear infinite;
+}
+
+nav 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #535724;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 100px;
+    height: 75px;
+}
+
+.b {
+    flex: 2;
+}
+
+.c {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.card-text
+{
+    color: white;
+}
+
+.cart-button {
+    margin-left: 20px; /* Adjust as needed */
+}
+
+.cart-button button {
+    background-color: #535724;
+    color: #ADB272;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart-button button:hover 
+{
+    background-color: #787c49;
+}
+.c1{
+    width: 80%;
+    height: 50%;
+    position: fixed;
+    background-color:#ADB272;
+    z-index: 5;
+    border-radius: 2%;
+    margin-top: 5%;
+    margin-left: 10%;
+    visibility: hidden;
+    overflow-y: scroll;
+    text-align: center;
+}
+span
+{
+    margin-left: 10%;
+}
+.title{
+    font-weight: bolder;
+    margin-top: 10px;
+}
+#title{
+    padding: 0;
+    margin: 0;
+    margin-left: 3%;
+    text-align: center;
+}
+.cartImg > img{
+    width: 200px;
+    border: none;
+    margin: 50px;
+}
+/* Adjustments to the header navigation */
+nav {
+    display: flex;
+    justify-content: space-between; /* Ensures proper spacing between elements */
+    align-items: center;
+    color: #535724;
+    padding: 0 30px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #535724;
+}
+.a
+{
+    flex: 2;
+}
+.b
+{
+    flex: 2;
+}
+.c
+{
+    flex: 1;
+}
+.login
+{
+    width: 150px;
+    height: 30px;
+}
+nav a{
+    text-decoration: none;
+    color:#535724;
+    font-size: large;
+    margin: 20px;
+}
+.logo
+{
+    border-radius: 10px;
+    width: 100px;
+    height: 75px;
+}
+.carousel
+{
+    position: relative;
+    margin-top: 30px;
+}
+.cards .card img
+{
+    height: 210px;
+}
+.card-body
+{
+    background-color: #ADB272;
+}
+.cards p
+{
+    text-align: center;
+}
+/* Add CSS for mouse hover effect */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 18rem;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card:hover .card-img-top {
+    opacity: 0.7;
+}
+
+.card:hover .card-text {
+    color: rgb(11, 11, 11);
+}
+
+.banner
+{
+    height: 500px;
+    width: 100%;
+}
+.cards
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+  }
+  .card-img-top{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card1{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .card1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .button-container 
+  {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .button {
+    padding: 10px 20px;
+    background-color: #ADB272;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .button:hover 
+  {
+    background-color: white;
+  }
+.puma
+{
+    height: 500px;
+    width: 100%;
+}
+footer
+{
+    height: 200px;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+footer a 
+{
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
